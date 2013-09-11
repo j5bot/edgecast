@@ -1,10 +1,10 @@
 var test    = require('tap').test,
-    fastly  = require(__dirname + '/../../lib/index.js');
+    edgecast  = require(__dirname + '/../../lib/index.js');
 
 test('unit', function (t) {
-    t.type(fastly, 'function', 'module is a function');
+    t.type(edgecast, 'function', 'module is a function');
 
-    var ready = fastly('apikey');
+    var ready = edgecast('apikey')('account_number');
     t.type(ready, 'object', 'module exposes an object');
     t.type(ready.request, 'function', 'request method exists');
     t.end();
