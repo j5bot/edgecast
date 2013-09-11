@@ -12,7 +12,7 @@ npm install edgecast
 
 ### Basic Use
 ```javascript
-var edgecast = require('edgecast')('yourapikey')('youraccountnumber');
+var edgecast = require('edgecast')('yourapikey', 'youraccountnumber');
 
 edgecast.request('PUT', 'edge/purge', {
     MediaPath: 'http://foo.com/bar',
