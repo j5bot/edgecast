@@ -3,7 +3,7 @@
 
 This client is based on the [Fastly API Client](http://github.com/thisandagain/fastly) by Andrew Sliwinski.  It attempts to conform to the same extended/helper interface as that API whil targetting the Edgecast CDN API.
 
-[![Build Status](https://travis-ci.org/thisandagain/edgecast.png?branch=master)](https://travis-ci.org/thisandagain/edgecast)
+[![Build Status](https://travis-ci.org/j5bot/edgecast.png?branch=master)](https://travis-ci.org/j5bot/edgecast)
 
 ### Installation
 ```bash
