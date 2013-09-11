@@ -8,10 +8,12 @@ This client is based on the [Fastly API Client](http://github.com/thisandagain/f
 ### Installation
 ```bash
 npm install git://github.com/j5bot/edgecast
+```
 
 #### In package.json Dependencies
 ```javascript
 "edgecast": "git://github.com/j5bot/edgecast#master"
+```
 
 ### Basic Use
 ```javascript
