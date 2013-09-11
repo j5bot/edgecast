@@ -38,7 +38,7 @@ The edgecast module also includes a few limited "helper" methods that make worki
     </tr>
     <tr>
         <td>purgeAll</td>
-        <td><pre lang="javascript"><code>edgecast.purgeAll('myServiceId', callback);</code></pre></td>
+        <td><pre lang="javascript"><code>edgecast.purgeAll('host.com', callback);</code></pre></td>
     </tr>
 </table>
 
