@@ -16,7 +16,7 @@ var edgecast = require('edgecast')('yourapikey')('youraccountnumber');
 
 edgecast.request('PUT', 'edge/purge', {
     MediaPath: 'http://foo.com/bar',
-    MediaType: 'http small'
+    MediaType: edgecast.getMediaType('http small')
     }, function (err, obj) {
         if (err) return console.dir(err);   // Oh no!
         console.dir(obj);                   // Response body from the edgecast API
